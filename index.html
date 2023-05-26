@@ -6,56 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>paulasosadev</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <header></header>
     <main>
-        <section>
+        <section class="main-side-left">
             <!--<p>Presentación (Nombre, cargo, foto, presentación corta)</p>-->
             <h1>Paula Sosa</h1>
             <h2>Web developer</h2>
-            <img src="#" alt="paulasosa">
+            <img src="imagenes/paula_sosa2.png" alt="paulasosa">
             <p>I'm a junior developer working in be better every day!</p>
         </section>
         
-        <section>
+        <section class="main-side-rigth">
             <!--<p>- Proyectos (Proyectos personales, de estudio y enlace a mis códigos en Github)</p>-->
             <H2>PROYECTOS</H2>
             
             <article>
                 <h2>Galeria</h2>
                 <a target="_blank" href="https://www.paulasosadev.com/galeria/index.html" class="main-image"> 
-                    <img src="galeria_v2.0.jpg" alt="Imagen_Galería">
-                    <p>Galería de fotos de los mejores lugares visitados y de muchos donde sueño visitar!</p>
+                    <img src="imagenes/galeria_v2.0.jpg" alt="Imagen_Galería">
                 </a>
+                <p>Galería de fotos de los mejores lugares visitados y de muchos donde sueño visitar!</p>
             </article>
 
             <article>
                 <h2>Blog Personal</h2>
                 <a target="_blank" href="./blog/index1.html" class="main-image"> 
-                    <img src="blog_english.jpg" alt="Imagen_Blog">
-                    <p>En este blog podrás encontrar mis prácticas actuales con el código, mis prácticas con el inglés y redactando textos. Bienvenidos!</p>
+                    <img src="imagenes/blog_english.jpg" alt="Imagen_Blog">
                 </a>
-                
+                <p>En este blog podrás encontrar mis prácticas actuales con el código, mis prácticas con el inglés y redactando textos. Bienvenidos!</p>
             </article>
 
             <article>
                 <h2>Paul's Shop</h2>
                 <a target="_blank" href="./Paul-s-Shop/frontend/index/index.html" class="main-image"> 
-                    <img src="paul-s-shop.jpg" alt="Imagen_PaulShop">
-                    <p>Proyecto de Paul's Shop trabajado en base a los conocimientos adquiridos en el proyecto Mintic y en Platzi.</p>
+                    <img src="imagenes/paul-s-shop.jpg" alt="Imagen_PaulShop">
                 </a>
+                <p>Proyecto de Paul's Shop trabajado en base a los conocimientos adquiridos en el proyecto Mintic y en Platzi.</p>
             </article>
 
-            <article>Github
+            <article>
+                <h2>Github</h2>
                 <a class="link__side_contacto" target="_blank" href="https://github.com/PaulaSosa" class="main-image"> 
                     <img src="./icons/icons8-github.svg" alt="Imagen github">
                 </a>
             </article>
         </section>
-
-        <section>
+    </main>
+    <footer>
+        <section class="footer-information-down">
             <!--<p>Información adicional (Incluye pero no limita a: Conocimientos básicos, certificaciones, contacto en redes sociales, curriculum descargabre)</p>-->
             <article>
                 <h2>Conocimientos básicos en:</h2>
@@ -69,8 +73,8 @@
             <article>
                 <h2>Certificaciones Académicas</h2>
                 <div>
-                    <h3>Tecnico MINTIC</h3>
-                    <img src="#" alt="tecnicolaboral">
+                    <h3>Tecnico UNAB</h3>
+                    <img src="imagenes/tecnicolaboral.jpg" alt="tecnicolaboral">
                 </div>
                 <div>
                     <h3>Platzi</h3>
@@ -93,10 +97,11 @@
             
             <article>
                 <h2>Curriculum</h2>
+                <a href="descargables/CV_PAULASOSA_English.pdf" download="CCV_PAULASOSA_English.pdf">Curriculum in English</a>
+                <br/><br/>
+                <a href="descargables/CV_PAULASOSA_Sp.pdf" download="CV_PAULASOSA_Sp.pdf">Curriculum en Español</a>
             </article>
-
         </section>
-    </main>
-    <footer></footer>
+    </footer>
 </body>
 </html>

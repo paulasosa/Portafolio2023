@@ -1,0 +1,11 @@
+
+/*Tamaño temporal de las IMÁGENES*/
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/*Tamaño letras Familia Quicksand*/
+body {
+    font-family: 'Quicksand', sans-serif;
+}
