@@ -71,6 +71,7 @@ main .main-side-rigth {
     padding: 5%;
     gap: 5%;
     place-self: center;
+    padding-bottom: 10%;
 }
 
 main .main-image {
@@ -86,6 +87,7 @@ main .main-image {
 
 .main-side-left {
     text-align: center;
+    
 }
 
 .main-image-pash {
@@ -93,7 +95,7 @@ main .main-image {
     object-fit: cover;
     width: 80%;
     height: auto;
-    padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 
@@ -110,4 +112,7 @@ footer .footer-information-down {
     gap: 8%;
     place-self: center;
     background-color: rgb(213, 219, 219);
+}
+footer img {
+    max-height: 100px;
 }
