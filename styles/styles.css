@@ -1,19 +1,8 @@
 
 /*Tamaño temporal de las IMÁGENES*/
-img {
-    max-width: 200px;
-    max-height: 200px;
-}
 
-/*Clases principales de las secciones
 
-main 
-Seccion 1 Presentacion: main-side-left;
-Seccion 2 Proyectos: main-side-rigth;
-
-footer
-Seccion 3 Indormación adicional: footer-information-down;
-*/
+/*GRAL*/
 
 * {
     margin: 0;
@@ -56,6 +45,13 @@ p {
     padding-bottom: 10px;
 }
 
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/*MAIN*/
+
 main {
     width: 100%;
     height: auto;
@@ -76,17 +72,6 @@ main .main-side-rigth {
     place-self: center;
 }
 
-footer .footer-information-down {
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 10% 20% 20% 10%;
-    padding: 5%;
-    gap: 8%;
-    place-self: center;
-    background-color: rgb(213, 219, 219);
-}
-
 main .main-image {
     width: auto;
     height: auto;
@@ -98,4 +83,27 @@ main .main-image {
     padding-bottom: 10px;
 }
 
+.main-side-left {
+    text-align: center;
+}
 
+.main-image-pash {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 80%;
+    height: auto;
+    padding-left: 5%;
+}
+
+/*FOOTER*/
+
+footer .footer-information-down {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 10% 20% 20% 10%;
+    padding: 5%;
+    gap: 8%;
+    place-self: center;
+    background-color: rgb(213, 219, 219);
+}
