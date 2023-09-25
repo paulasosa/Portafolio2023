@@ -8,3 +8,7 @@ El proyecto estará segmentado en tres secciones, las cuales serán:
 - Información adicional (Incluye pero no limita a: Conocimientos básicos, certificaciones, contacto en redes sociales, curriculum descargable en ingles y español)
 
 Los estilos del proyecto se construirán en base a mobile first, esto para mejorar la interactividad del cliente con la plataforma.
+
+Todos los cambios realizados en este repositorio podrá ser encontrados en:
+
+https://www.paulasosadev.com/
